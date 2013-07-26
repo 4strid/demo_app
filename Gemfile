@@ -15,6 +15,10 @@ gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 
+# javascript fixins
+gem 'execjs'
+gem 'therubyracer', platforms: :ruby
+
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
